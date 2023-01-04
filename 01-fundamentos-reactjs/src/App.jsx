@@ -1,5 +1,12 @@
-function App() {
-  return <h1>Hello World!</h1>;
-}
+import { Header } from "./components/Header";
+import { Post } from "./Post";
 
-export default App;
+import "./global.css";
+
+export function App() {
+  return (
+    <div>
+      Hello World!
+    </div>
+  );
+}
