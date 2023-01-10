@@ -4,9 +4,5 @@ import { Post } from "./Post";
 import "./global.css";
 
 export function App() {
-  return (
-    <div>
-      Hello World!
-    </div>
-  );
+  return <Header />;
 }
