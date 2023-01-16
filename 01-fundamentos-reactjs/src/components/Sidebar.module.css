@@ -1,6 +1,7 @@
 .sidebar {
   background: var(--gray-800);
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .sidebar img {

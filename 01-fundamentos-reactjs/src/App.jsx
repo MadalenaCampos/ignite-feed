@@ -3,7 +3,7 @@ import style from "./App.module.css";
 
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
-import { Post } from "./Post";
+import { Post } from "./components/Post";
 
 export function App() {
   return (
@@ -15,17 +15,19 @@ export function App() {
       <div className={style["ignite-feed-timeline"]}>
         <Sidebar />
 
-        <div className="ignite-feed-timeline-posts">
+        <div className={style['ignite-feed-timeline-posts']}>
           <Post
             author="Joana"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum iste aspernatur, excepturi illum quisquam non ipsum sequi eveniet aperiam, iusto itaque vel veniam maiores laudantium quae deserunt, voluptatum veritatis."
           />
+
           <Post
-            author="Mauriciu"
+            author="Joana"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum iste aspernatur, excepturi illum quisquam non ipsum sequi eveniet aperiam, iusto itaque vel veniam maiores laudantium quae deserunt, voluptatum veritatis."
           />
+
           <Post
-            author="Bella"
+            author="Joana"
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum iste aspernatur, excepturi illum quisquam non ipsum sequi eveniet aperiam, iusto itaque vel veniam maiores laudantium quae deserunt, voluptatum veritatis."
           />
         </div>

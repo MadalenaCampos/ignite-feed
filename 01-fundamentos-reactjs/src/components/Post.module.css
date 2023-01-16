@@ -1,0 +1,124 @@
+.post {
+  padding: 2.5rem;
+  background: #202024;
+  border-radius: 8px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-header-usuario {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.post-header-usuario img {
+  box-sizing: initial;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--purple-700);
+}
+
+.post-header-usuario-informacoes h4 {
+  display: block;
+  color: var(--gray-100);
+  line-height: 1.6;
+}
+
+.post-header-usuario-informacoes p {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  line-height: 1.6;
+}
+
+.post-header-data-de-publicacao time {
+  font-size: 0.8rem;
+  color: var(--gray-400);
+}
+
+.post-conteudo {
+  line-height: 1.6;
+  color: var(--gray-300);
+  margin-top: 1.5rem;
+}
+
+.post-conteudo p {
+  margin-top: 1rem;
+}
+
+.post-conteudo-hastags {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.post-conteudo a {
+  font-weight: bold;
+  color: var(--purple-700);
+  text-decoration: none;
+
+  transition: color 0.3s;
+}
+
+.post-conteudo a:hover {
+  color: var(--purple-600);
+}
+
+.post-feedback {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-600);
+}
+
+.post-feedback strong {
+  line-height: 1.6;
+  color: var(--gray-100);
+}
+
+.post-feedback textarea {
+  width: 100%;
+  background: var(--gray-900);
+  border: 0;
+  resize: none;
+  height: 6rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+
+.post-feedback footer {
+  visibility: hidden;
+  max-height: 0;
+}
+
+.post-feedback:focus-within footer {
+  visibility: visible;
+  max-height: none;
+}
+
+.post-feedback-footer button {
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--purple-700);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: background 0.3s;
+}
+
+.post-feedback-footer button:hover {
+  background: var(--purple-600);
+}

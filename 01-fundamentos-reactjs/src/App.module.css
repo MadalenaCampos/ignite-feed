@@ -7,3 +7,9 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+.ignite-feed-timeline-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
