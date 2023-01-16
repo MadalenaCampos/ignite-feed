@@ -4,13 +4,6 @@
   gap: 1rem;
 }
 
-.comentario-foto-usuario img {
-  box-sizing: initial;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 8px;
-}
-
 .comentario-conteudo {
   padding: 16px 16px 25px;
   background: #29292e;

@@ -1,12 +1,17 @@
 import styles from "./Comment.module.css";
 
+import { Avatar } from "./Avatar";
+
 import { Trash, HandsClapping } from "phosphor-react";
 
 export function Comment() {
   return (
     <div className={styles.comentario}>
       <div className={styles["comentario-foto-usuario"]}>
-        <img src="https://avatars.githubusercontent.com/u/71613655?v=4" />
+        <Avatar
+          temBorda={false}
+          src="https://avatars.githubusercontent.com/u/71613655?v=4"
+        />
       </div>
 
       <div>
@@ -29,13 +34,16 @@ export function Comment() {
             </button>
           </div>
           <div className={styles["comentario-conteudo-texto"]}>
-            <p>Muito bom Devon, parabéns!! 👏👏</p>
+            <p>Muito bom Iesley, parabéns!! 👏👏</p>
           </div>
         </div>
 
         <div className={styles["comentario-aplaudir"]}>
           <button>
-            <HandsClapping size={20} /> <p>Aplaudir <span>20</span></p>
+            <HandsClapping size={20} />{" "}
+            <p>
+              Aplaudir <span>20</span>
+            </p>
           </button>
         </div>
       </div>
