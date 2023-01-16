@@ -1,0 +1,87 @@
+.comentario {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 1rem;
+}
+
+.comentario-foto-usuario img {
+  box-sizing: initial;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.comentario-conteudo {
+  padding: 16px 16px 25px;
+  background: #29292e;
+  border-radius: 9px;
+  margin-bottom: 1rem;
+}
+
+.comentario-conteudo-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.comentario-conteudo-top button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  font-size: 0;
+  color: var(--gray-400);
+}
+
+.comentario-conteudo-top button:hover {
+  color: var(--red-500);
+}
+
+.comentario-conteudo-top-usuario h4 {
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.comentario-conteudo-top-usuario span {
+  color: var(--gray-400);
+}
+
+.comentario-conteudo-top-usuario time {
+  color: var(--gray-400);
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+.comentario-conteudo-texto {
+  color: var(--gray-300);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.comentario-aplaudir button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--gray-400);
+}
+
+.comentario-aplaudir button:hover {
+  color: var(--purple-600);
+}
+
+.comentario-aplaudir button span::before {
+  content: "\2022";
+  padding: 0 0.25rem;
+}

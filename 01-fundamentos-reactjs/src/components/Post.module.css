@@ -122,3 +122,10 @@
 .post-feedback-footer button:hover {
   background: var(--purple-600);
 }
+
+.post-comentarios {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
