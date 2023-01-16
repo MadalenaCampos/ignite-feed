@@ -8,6 +8,16 @@
   align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .ignite-feed-timeline {
+    grid-template-columns: 1fr;
+  }
+}
+
 .ignite-feed-timeline-posts {
   display: flex;
   flex-direction: column;
