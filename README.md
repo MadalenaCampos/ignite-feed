@@ -1,1 +1,1 @@
-# <img src="/img/ignite-logo.svg"> ignite-react
+# <img src="/img/ignite-logo.svg" width="200"> Ignite Feed
