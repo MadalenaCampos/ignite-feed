@@ -1,2 +1,1 @@
-# ignite-react
-Curso de ReactJS do Ignite da Rocketseat, trilha atualizada.
+# <img src="./img/ignite-logo" alt="home" width="500"> ignite-react
